@@ -1,7 +1,8 @@
 # I-A-2024
  S3 DEV team Invade and Annex.
 
- **When packing all missions for I/A be sure to Pull and replace the cScripts folder and CBAsetting.sqf with the most current versions.**
+ **When packing all missions for I/A be sure to Pull and replace the cScripts folder and CBAsetting.sqf with the most current versions, change cba setting force force ace_dragging_weightCoefficient value from 1 to 0.1 .**
+
 
 Mission components & Descriptions on what they do
 
