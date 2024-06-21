@@ -231,6 +231,7 @@ class CfgFunctions
     #include "SBGF\cfgfunctions.hpp"
     #include "VVS\Functions.h"
     #include "cScripts\CfgFunctions.hpp"
+    #include "mScripts\cfgFunctions.hpp"
     
 };
 
