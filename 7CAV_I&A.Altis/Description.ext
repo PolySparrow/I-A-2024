@@ -231,8 +231,11 @@ class CfgFunctions
     #include "SBGF\cfgfunctions.hpp"
     #include "VVS\Functions.h"
     #include "cScripts\CfgFunctions.hpp"
-    #include "cScripts\CfgLoadouts.hpp"
+    
 };
+
+#include "cScripts\CfgLoadouts.hpp"
+
 class Extended_PreInit_EventHandlers {
     cScripts_preInit = "0 spawn compile preprocessFileLineNumbers 'cScripts\cScripts_preInit.sqf'";
 };
