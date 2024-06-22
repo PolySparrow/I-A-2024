@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=16437;
+		nextID=17015;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=15753;
+		nextID=15841;
 	};
 	class Camera
 	{
-		pos[]={14703.75,49.901237,16705.088};
-		dir[]={0.66856915,-0.42377365,0.61109018};
-		up[]={0.31279746,0.9057681,0.2859053};
-		aside[]={0.67466515,0,-0.73812389};
+		pos[]={14657.109,64.529762,16730.877};
+		dir[]={-0.59567511,-0.5683983,0.56755733};
+		up[]={-0.41151485,0.82275504,0.39208907};
+		aside[]={0.689821,-2.2523454e-007,0.72399801};
 	};
 };
 binarizationWanted=0;
@@ -68310,7 +68310,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=105;
+		items=111;
 		class Item0
 		{
 			dataType="Marker";
@@ -72470,10 +72470,10 @@ class Mission
 		class Item104
 		{
 			dataType="Layer";
-			name="I&A_Cav_Slots";
+			name="I&A_Cav_Units";
 			class Entities
 			{
-				items=21;
+				items=22;
 				class Item0
 				{
 					dataType="Group";
@@ -72498,7 +72498,7 @@ class Mission
 								description="Platoon Leader@GUNSLINGER-6";
 								isPlayable=1;
 							};
-							id=16345;
+							id=16919;
 							type="Cav_B_C_PlatoonLeader_F";
 							atlOffset=0.0048294067;
 							class CustomAttributes
@@ -72537,7 +72537,7 @@ class Mission
 					{
 						dynamicSimulation=1;
 					};
-					id=16344;
+					id=16918;
 					atlOffset=0.0048294067;
 					class CustomAttributes
 					{
@@ -72581,7 +72581,7 @@ class Mission
 								description="Platoon Sergeant@GUNSLINGER-5";
 								isPlayable=1;
 							};
-							id=16347;
+							id=16921;
 							type="Cav_B_C_PlatoonSergeant_F";
 							atlOffset=0.0048294067;
 							class CustomAttributes
@@ -72620,7 +72620,7 @@ class Mission
 					{
 						dynamicSimulation=1;
 					};
-					id=16346;
+					id=16920;
 					atlOffset=0.0048294067;
 					class CustomAttributes
 					{
@@ -72664,7 +72664,7 @@ class Mission
 								description="Platoon Medic@GUNSLINGER-7";
 								isPlayable=1;
 							};
-							id=16349;
+							id=16923;
 							type="Cav_B_C_PlatoonMedic_F";
 							atlOffset=0.0048294067;
 							class CustomAttributes
@@ -72716,7 +72716,7 @@ class Mission
 					{
 						dynamicSimulation=1;
 					};
-					id=16348;
+					id=16922;
 					atlOffset=0.0048294067;
 					class CustomAttributes
 					{
@@ -72760,7 +72760,7 @@ class Mission
 								description="Squad Leader@GUNSLINGER-1";
 								isPlayable=1;
 							};
-							id=16351;
+							id=16925;
 							type="Cav_B_C_SquadLeader_F";
 							atlOffset=0.021863937;
 							class CustomAttributes
@@ -72812,7 +72812,7 @@ class Mission
 								description="Alpha Fireteam Leader";
 								isPlayable=1;
 							};
-							id=16352;
+							id=16926;
 							type="Cav_B_C_Alpha_FireTeamLeader_F";
 							atlOffset=0.021865845;
 						};
@@ -72833,7 +72833,7 @@ class Mission
 								description="Alpha Automatic Rifleman";
 								isPlayable=1;
 							};
-							id=16353;
+							id=16927;
 							type="Cav_B_C_Alpha_AutomaticRifleman_F";
 							atlOffset=0.021863937;
 						};
@@ -72854,7 +72854,7 @@ class Mission
 								description="Alpha Grenadier";
 								isPlayable=1;
 							};
-							id=16354;
+							id=16928;
 							type="Cav_B_C_Alpha_Grenadier_F";
 							atlOffset=0.021863937;
 						};
@@ -72875,7 +72875,7 @@ class Mission
 								description="Alpha Rifleman (LAT)";
 								isPlayable=1;
 							};
-							id=16355;
+							id=16929;
 							type="Cav_B_C_Alpha_RiflemanLAT_F";
 							atlOffset=0.021863937;
 						};
@@ -72897,7 +72897,7 @@ class Mission
 								description="Bravo Fireteam Leader";
 								isPlayable=1;
 							};
-							id=16356;
+							id=16930;
 							type="Cav_B_C_Bravo_FireTeamLeader_F";
 							atlOffset=0.021865845;
 						};
@@ -72918,7 +72918,7 @@ class Mission
 								description="Bravo Automatic Rifleman";
 								isPlayable=1;
 							};
-							id=16357;
+							id=16931;
 							type="Cav_B_C_Bravo_AutomaticRifleman_F";
 							atlOffset=0.021863937;
 						};
@@ -72939,7 +72939,7 @@ class Mission
 								description="Bravo Grenadier";
 								isPlayable=1;
 							};
-							id=16358;
+							id=16932;
 							type="Cav_B_C_Bravo_Grenadier_F";
 							atlOffset=0.021863937;
 						};
@@ -72959,7 +72959,7 @@ class Mission
 								description="Bravo CLS";
 								isPlayable=1;
 							};
-							id=16359;
+							id=16933;
 							type="Cav_B_C_CombatLifeSaver_F";
 							atlOffset=0.021863937;
 							class CustomAttributes
@@ -72998,7 +72998,7 @@ class Mission
 					{
 						dynamicSimulation=1;
 					};
-					id=16350;
+					id=16924;
 					atlOffset=0.021863937;
 					class CustomAttributes
 					{
@@ -73042,7 +73042,7 @@ class Mission
 								description="Squad Leader@GUNSLINGER-2";
 								isPlayable=1;
 							};
-							id=16361;
+							id=16935;
 							type="Cav_B_C_SquadLeader_F";
 							class CustomAttributes
 							{
@@ -73093,7 +73093,7 @@ class Mission
 								description="Alpha Fireteam Leader";
 								isPlayable=1;
 							};
-							id=16362;
+							id=16936;
 							type="Cav_B_C_Alpha_FireTeamLeader_F";
 						};
 						class Item2
@@ -73113,7 +73113,7 @@ class Mission
 								description="Alpha Automatic Rifleman";
 								isPlayable=1;
 							};
-							id=16363;
+							id=16937;
 							type="Cav_B_C_Alpha_AutomaticRifleman_F";
 						};
 						class Item3
@@ -73133,7 +73133,7 @@ class Mission
 								description="Alpha Grenadier";
 								isPlayable=1;
 							};
-							id=16364;
+							id=16938;
 							type="Cav_B_C_Alpha_Grenadier_F";
 						};
 						class Item4
@@ -73153,7 +73153,7 @@ class Mission
 								description="Alpha Rifleman (LAT)";
 								isPlayable=1;
 							};
-							id=16365;
+							id=16939;
 							type="Cav_B_C_Alpha_RiflemanLAT_F";
 						};
 						class Item5
@@ -73174,7 +73174,7 @@ class Mission
 								description="Bravo Fireteam Leader";
 								isPlayable=1;
 							};
-							id=16366;
+							id=16940;
 							type="Cav_B_C_Bravo_FireTeamLeader_F";
 						};
 						class Item6
@@ -73194,7 +73194,7 @@ class Mission
 								description="Bravo Automatic Rifleman";
 								isPlayable=1;
 							};
-							id=16367;
+							id=16941;
 							type="Cav_B_C_Bravo_AutomaticRifleman_F";
 						};
 						class Item7
@@ -73214,7 +73214,7 @@ class Mission
 								description="Bravo Grenadier";
 								isPlayable=1;
 							};
-							id=16368;
+							id=16942;
 							type="Cav_B_C_Bravo_Grenadier_F";
 						};
 						class Item8
@@ -73233,7 +73233,7 @@ class Mission
 								description="Bravo CLS";
 								isPlayable=1;
 							};
-							id=16369;
+							id=16943;
 							type="Cav_B_C_CombatLifeSaver_F";
 							class CustomAttributes
 							{
@@ -73271,7 +73271,7 @@ class Mission
 					{
 						dynamicSimulation=1;
 					};
-					id=16360;
+					id=16934;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -73314,7 +73314,7 @@ class Mission
 								description="Squad Leader@GUNSLINGER-3";
 								isPlayable=1;
 							};
-							id=16371;
+							id=16945;
 							type="Cav_B_C_Weapons_SquadLeader_F";
 							class CustomAttributes
 							{
@@ -73365,7 +73365,7 @@ class Mission
 								description="Alpha Fireteam Leader";
 								isPlayable=1;
 							};
-							id=16372;
+							id=16946;
 							type="Cav_B_C_Weapons_M240B_FireTeamLeader_F";
 							class CustomAttributes
 							{
@@ -73415,7 +73415,7 @@ class Mission
 								description="Alpha Machine Gunner";
 								isPlayable=1;
 							};
-							id=16373;
+							id=16947;
 							type="Cav_B_C_Weapons_M240B_Machinegunner_F";
 							class CustomAttributes
 							{
@@ -73465,7 +73465,7 @@ class Mission
 								description="Alpha M240 Ammo Bearer";
 								isPlayable=1;
 							};
-							id=16374;
+							id=16948;
 							type="Cav_B_C_Weapons_M240B_MachinegunnerAmmoBearer_F";
 							class CustomAttributes
 							{
@@ -73516,7 +73516,7 @@ class Mission
 								description="Bravo Fireteam Leader";
 								isPlayable=1;
 							};
-							id=16375;
+							id=16949;
 							type="Cav_B_C_Weapons_M240B_FireTeamLeader_F";
 							class CustomAttributes
 							{
@@ -73566,7 +73566,7 @@ class Mission
 								description="Bravo Machine Gunner";
 								isPlayable=1;
 							};
-							id=16376;
+							id=16950;
 							type="Cav_B_C_Weapons_M240B_Machinegunner_F";
 							class CustomAttributes
 							{
@@ -73616,7 +73616,7 @@ class Mission
 								description="Bravo M240 Ammo Bearer";
 								isPlayable=1;
 							};
-							id=16377;
+							id=16951;
 							type="Cav_B_C_Weapons_M240B_MachinegunnerAmmoBearer_F";
 							class CustomAttributes
 							{
@@ -73666,7 +73666,7 @@ class Mission
 								description="Charlie MAAWS Gunner";
 								isPlayable=1;
 							};
-							id=16378;
+							id=16952;
 							type="Cav_B_C_Weapons_MAAWS_MAAWSGunner_F";
 							class CustomAttributes
 							{
@@ -73715,7 +73715,7 @@ class Mission
 								description="Charlie MAAWS Assistant";
 								isPlayable=1;
 							};
-							id=16379;
+							id=16953;
 							type="Cav_B_C_Weapons_MAAWS_MAAWSAssistant_F";
 							class CustomAttributes
 							{
@@ -73753,7 +73753,7 @@ class Mission
 					{
 						dynamicSimulation=1;
 					};
-					id=16370;
+					id=16944;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -73796,7 +73796,7 @@ class Mission
 								description="Stryker Vehicle Commander@SIERRA-1";
 								isPlayable=1;
 							};
-							id=16381;
+							id=16955;
 							type="Cav_B_B_Ifv_Commander_F";
 							class CustomAttributes
 							{
@@ -73859,7 +73859,7 @@ class Mission
 								description="Stryker Driver@SIERRA-1";
 								isPlayable=1;
 							};
-							id=16382;
+							id=16956;
 							type="Cav_B_B_Ifv_Driver_F";
 							class CustomAttributes
 							{
@@ -73909,7 +73909,7 @@ class Mission
 					class Attributes
 					{
 					};
-					id=16380;
+					id=16954;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -73952,7 +73952,7 @@ class Mission
 								description="Squad Leader@VIKING-1";
 								isPlayable=1;
 							};
-							id=16384;
+							id=16958;
 							type="Cav_B_B_Scout_SquadLeader_F";
 							class CustomAttributes
 							{
@@ -74003,7 +74003,7 @@ class Mission
 								description="Alpha Team Leader";
 								isPlayable=1;
 							};
-							id=16385;
+							id=16959;
 							type="Cav_B_B_Scout_Alpha_TeamLead_F";
 							class CustomAttributes
 							{
@@ -74053,7 +74053,7 @@ class Mission
 								description="Alpha Automatic Rifleman";
 								isPlayable=1;
 							};
-							id=16386;
+							id=16960;
 							type="Cav_B_B_Scout_Alpha_AutomaticRifleman_F";
 							class CustomAttributes
 							{
@@ -74103,7 +74103,7 @@ class Mission
 								description="Alpha Grenadier";
 								isPlayable=1;
 							};
-							id=16387;
+							id=16961;
 							type="Cav_B_B_Scout_Rifleman_F";
 							class CustomAttributes
 							{
@@ -74153,7 +74153,7 @@ class Mission
 								description="Alpha Rifleman";
 								isPlayable=1;
 							};
-							id=16388;
+							id=16962;
 							type="Cav_B_B_Scout_Alpha_Rifleman_F";
 							class CustomAttributes
 							{
@@ -74204,7 +74204,7 @@ class Mission
 								description="Bravo Team Leader";
 								isPlayable=1;
 							};
-							id=16389;
+							id=16963;
 							type="Cav_B_B_Scout_Bravo_TeamLead_F";
 							class CustomAttributes
 							{
@@ -74254,7 +74254,7 @@ class Mission
 								description="Bravo Automatic Rifleman";
 								isPlayable=1;
 							};
-							id=16390;
+							id=16964;
 							type="Cav_B_B_Scout_Bravo_AutomaticRifleman_F";
 							class CustomAttributes
 							{
@@ -74304,7 +74304,7 @@ class Mission
 								description="Bravo Grenadier";
 								isPlayable=1;
 							};
-							id=16391;
+							id=16965;
 							type="Cav_B_B_Scout_Rifleman_F";
 							class CustomAttributes
 							{
@@ -74354,7 +74354,7 @@ class Mission
 								description="Bravo Combat Lifesaver";
 								isPlayable=1;
 							};
-							id=16392;
+							id=16966;
 							type="Cav_B_B_Scout_Bravo_CombatLifeSaver_F";
 							class CustomAttributes
 							{
@@ -74392,7 +74392,7 @@ class Mission
 					{
 						dynamicSimulation=1;
 					};
-					id=16383;
+					id=16957;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -74435,7 +74435,7 @@ class Mission
 								description="Medical Team Leader@ATLAS-1";
 								isPlayable=1;
 							};
-							id=16394;
+							id=16968;
 							type="Cav_B_B_Atlas_Medic_TeamLeader_3_1_F";
 							atlOffset=0.08482933;
 							class CustomAttributes
@@ -74512,7 +74512,7 @@ class Mission
 								description="Medical Team Member";
 								isPlayable=1;
 							};
-							id=16395;
+							id=16969;
 							type="Cav_B_B_Atlas_Medic_CombatMedic_F";
 							atlOffset=0.08482933;
 							class CustomAttributes
@@ -74589,7 +74589,7 @@ class Mission
 								description="Medical Team Member";
 								isPlayable=1;
 							};
-							id=16396;
+							id=16970;
 							type="Cav_B_B_Atlas_Medic_CombatMedic_F";
 							atlOffset=0.08482933;
 							class CustomAttributes
@@ -74666,7 +74666,7 @@ class Mission
 								description="Medical Team Member";
 								isPlayable=1;
 							};
-							id=16397;
+							id=16971;
 							type="Cav_B_B_Atlas_Medic_CombatMedic_F";
 							atlOffset=0.08482933;
 							class CustomAttributes
@@ -74731,7 +74731,7 @@ class Mission
 					{
 						dynamicSimulation=1;
 					};
-					id=16393;
+					id=16967;
 					atlOffset=0.08482933;
 					class CustomAttributes
 					{
@@ -74775,7 +74775,7 @@ class Mission
 								description="Medical Team Leader@ATLAS-2";
 								isPlayable=1;
 							};
-							id=16399;
+							id=16973;
 							type="Cav_B_B_Atlas_Medic_TeamLeader_3_2_F";
 							atlOffset=0.08482933;
 							class CustomAttributes
@@ -74852,7 +74852,7 @@ class Mission
 								description="Medical Team Member";
 								isPlayable=1;
 							};
-							id=16400;
+							id=16974;
 							type="Cav_B_B_Atlas_Medic_CombatMedic_F";
 							atlOffset=0.08482933;
 							class CustomAttributes
@@ -74929,7 +74929,7 @@ class Mission
 								description="Medical Team Member";
 								isPlayable=1;
 							};
-							id=16401;
+							id=16975;
 							type="Cav_B_B_Atlas_Medic_CombatMedic_F";
 							atlOffset=0.08482933;
 							class CustomAttributes
@@ -75006,7 +75006,7 @@ class Mission
 								description="Medical Team Member";
 								isPlayable=1;
 							};
-							id=16402;
+							id=16976;
 							type="Cav_B_B_Atlas_Medic_CombatMedic_F";
 							atlOffset=0.08482933;
 							class CustomAttributes
@@ -75071,7 +75071,7 @@ class Mission
 					{
 						dynamicSimulation=1;
 					};
-					id=16398;
+					id=16972;
 					atlOffset=0.08482933;
 					class CustomAttributes
 					{
@@ -75115,7 +75115,7 @@ class Mission
 								description="JTAC@CHAOS-1";
 								isPlayable=1;
 							};
-							id=16404;
+							id=16978;
 							type="Cav_B_A_JFO_Infidel_1_F";
 							class CustomAttributes
 							{
@@ -75165,7 +75165,7 @@ class Mission
 								description="JTAC@CHAOS-1";
 								isPlayable=1;
 							};
-							id=16405;
+							id=16979;
 							type="Cav_B_A_JFO_Infidel_1_F";
 							class CustomAttributes
 							{
@@ -75202,7 +75202,7 @@ class Mission
 					class Attributes
 					{
 					};
-					id=16403;
+					id=16977;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -75246,7 +75246,7 @@ class Mission
 								description="Pilot@BUFFALO-1";
 								isPlayable=1;
 							};
-							id=16416;
+							id=16981;
 							type="Cav_B_A_Helicopter_Tra_Pilot_B1_F";
 							atlOffset=0.0070762634;
 							class CustomAttributes
@@ -75324,7 +75324,7 @@ class Mission
 								description="Co-Pilot@BUFFALO-1";
 								isPlayable=1;
 							};
-							id=16417;
+							id=16982;
 							type="Cav_B_A_Helicopter_Tra_coPilot_F";
 							atlOffset=0.0070762634;
 							class CustomAttributes
@@ -75401,7 +75401,7 @@ class Mission
 								description="Crew Chief@BUFFALO-1";
 								isPlayable=1;
 							};
-							id=16418;
+							id=16983;
 							type="Cav_B_A_Helicopter_Tra_CrewChief_F";
 							atlOffset=0.0070762634;
 							class CustomAttributes
@@ -75479,7 +75479,7 @@ class Mission
 								description="Crew@BUFFALO-1";
 								isPlayable=1;
 							};
-							id=16419;
+							id=16984;
 							type="Cav_B_A_Helicopter_Tra_DoorGunner_F";
 							atlOffset=0.0070762634;
 							class CustomAttributes
@@ -75544,7 +75544,7 @@ class Mission
 					{
 						dynamicSimulation=1;
 					};
-					id=16415;
+					id=16980;
 					atlOffset=0.0070762634;
 					class CustomAttributes
 					{
@@ -75576,22 +75576,21 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={14595.709,18.018513,16794.822};
-								angles[]={0,0.77594662,0};
+								position[]={14613.989,18.011436,16796.445};
+								angles[]={0,5.3802114,-0};
 							};
 							side="West";
-							flags=7;
+							flags=6;
 							class Attributes
 							{
 								skill=0.60000002;
 								rank="CAPTAIN";
-								init="call{this setgroupID[""RAVEN-1""];" \n "this setVariable [""cScripts_Player_Unit"", ""RAVEN-1""];}";
-								description="Pilot@RAVEN-1";
+								init="this setgroupid [""BISON-1""];" \n "this setVariable [""cScripts_Player_Unit"", ""BUFFALO-1""];";
+								description="DAP Pilot@BISON-1";
 								isPlayable=1;
 							};
-							id=16413;
-							type="Cav_B_A_Helicopter_Att_Pilot_Raven_1_F";
-							atlOffset=0.0070762634;
+							id=16986;
+							type="Cav_B_A_Helicopter_Tra_Pilot_F";
 							class CustomAttributes
 							{
 								class Attribute0
@@ -75608,6 +75607,55 @@ class Mission
 									};
 								};
 								class Attribute1
+								{
+									property="speaker";
+									expression="_this setspeaker _value;";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="Male04ENG";
+										};
+									};
+								};
+								class Attribute2
+								{
+									property="pitch";
+									expression="_this setpitch _value;";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1.02;
+										};
+									};
+								};
+								nAttributes=3;
+							};
+						};
+						class Item1
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14615.432,18.011436,16796.373};
+								angles[]={0,5.5638256,-0};
+							};
+							side="West";
+							flags=5;
+							class Attributes
+							{
+								init="this setgroupid [""BISON-1""];" \n "this setVariable [""cScripts_Player_Unit"", ""BUFFALO-1""];";
+								description="Co-Pilot@BISON-1";
+								isPlayable=1;
+							};
+							id=16987;
+							type="Cav_B_A_Helicopter_Tra_Pilot_F";
+							class CustomAttributes
+							{
+								class Attribute0
 								{
 									property="speaker";
 									expression="_this setspeaker _value;";
@@ -75620,73 +75668,8 @@ class Mission
 										};
 									};
 								};
-								class Attribute2
-								{
-									property="pitch";
-									expression="_this setpitch _value;";
-									class Value
-									{
-										class data
-										{
-											singleType="SCALAR";
-											value=1.04;
-										};
-									};
-								};
-								nAttributes=3;
-							};
-						};
-						class Item1
-						{
-							dataType="Object";
-							class PositionInfo
-							{
-								position[]={14596.423,18.018509,16794.121};
-								angles[]={0,0.77594662,0};
-							};
-							side="West";
-							flags=5;
-							class Attributes
-							{
-								skill=0.55000001;
-								rank="LIEUTENANT";
-								init="call{this setgroupID[""RAVEN-1""];" \n "this setVariable [""cScripts_Player_Unit"", ""RAVEN-1""];}";
-								description="Co-Pilot@RAVEN-1";
-								isPlayable=1;
-							};
-							id=16414;
-							type="Cav_B_A_Helicopter_Att_coPilot_F";
-							atlOffset=0.0070724487;
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="ace_isEngineer";
-									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
-									class Value
-									{
-										class data
-										{
-											singleType="SCALAR";
-											value=1;
-										};
-									};
-								};
 								class Attribute1
 								{
-									property="speaker";
-									expression="_this setspeaker _value;";
-									class Value
-									{
-										class data
-										{
-											singleType="STRING";
-											value="Male08ENG";
-										};
-									};
-								};
-								class Attribute2
-								{
 									property="pitch";
 									expression="_this setpitch _value;";
 									class Value
@@ -75694,11 +75677,11 @@ class Mission
 										class data
 										{
 											singleType="SCALAR";
-											value=0.95999998;
+											value=0.97000003;
 										};
 									};
 								};
-								nAttributes=3;
+								nAttributes=2;
 							};
 						};
 					};
@@ -75706,8 +75689,7 @@ class Mission
 					{
 						dynamicSimulation=1;
 					};
-					id=16412;
-					atlOffset=0.0070762634;
+					id=16985;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -75719,7 +75701,7 @@ class Mission
 								class data
 								{
 									singleType="STRING";
-									value="RAVEN-1";
+									value="BISON-1";
 								};
 							};
 						};
@@ -75751,7 +75733,7 @@ class Mission
 								description="Pilot@SPARROW-1";
 								isPlayable=1;
 							};
-							id=16410;
+							id=16992;
 							type="Cav_B_A_Helicopter_Att_Pilot_F";
 							atlOffset=0.0070762634;
 							class CustomAttributes
@@ -75816,7 +75798,7 @@ class Mission
 								description="Co-Pilot@SPARROW-1";
 								isPlayable=1;
 							};
-							id=16411;
+							id=16993;
 							type="Cav_B_A_Helicopter_Att_Pilot_F";
 							atlOffset=0.0070724487;
 							class CustomAttributes
@@ -75868,7 +75850,7 @@ class Mission
 					{
 						dynamicSimulation=1;
 					};
-					id=16409;
+					id=16991;
 					atlOffset=0.0070762634;
 					class CustomAttributes
 					{
@@ -75900,6 +75882,168 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
+								position[]={14595.709,18.018513,16794.822};
+								angles[]={0,0.77594662,0};
+							};
+							side="West";
+							flags=7;
+							class Attributes
+							{
+								skill=0.60000002;
+								rank="CAPTAIN";
+								init="call{this setgroupID[""RAVEN-1""];" \n "this setVariable [""cScripts_Player_Unit"", ""RAVEN-1""];}";
+								description="Pilot@RAVEN-1";
+								isPlayable=1;
+							};
+							id=16989;
+							type="Cav_B_A_Helicopter_Att_Pilot_Raven_1_F";
+							atlOffset=0.0070762634;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="ace_isEngineer";
+									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="speaker";
+									expression="_this setspeaker _value;";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="Male11ENG";
+										};
+									};
+								};
+								class Attribute2
+								{
+									property="pitch";
+									expression="_this setpitch _value;";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1.04;
+										};
+									};
+								};
+								nAttributes=3;
+							};
+						};
+						class Item1
+						{
+							dataType="Object";
+							class PositionInfo
+							{
+								position[]={14596.423,18.018509,16794.121};
+								angles[]={0,0.77594662,0};
+							};
+							side="West";
+							flags=5;
+							class Attributes
+							{
+								skill=0.55000001;
+								rank="LIEUTENANT";
+								init="call{this setgroupID[""RAVEN-1""];" \n "this setVariable [""cScripts_Player_Unit"", ""RAVEN-1""];}";
+								description="Co-Pilot@RAVEN-1";
+								isPlayable=1;
+							};
+							id=16990;
+							type="Cav_B_A_Helicopter_Att_coPilot_F";
+							atlOffset=0.0070724487;
+							class CustomAttributes
+							{
+								class Attribute0
+								{
+									property="ace_isEngineer";
+									expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=1;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="speaker";
+									expression="_this setspeaker _value;";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="Male08ENG";
+										};
+									};
+								};
+								class Attribute2
+								{
+									property="pitch";
+									expression="_this setpitch _value;";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=0.95999998;
+										};
+									};
+								};
+								nAttributes=3;
+							};
+						};
+					};
+					class Attributes
+					{
+						dynamicSimulation=1;
+					};
+					id=16988;
+					atlOffset=0.0070762634;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="groupID";
+							expression="                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID [_value];                            } else {                                [_this, _value] call CBA_fnc_setCallsign;                            };";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="RAVEN-1";
+								};
+							};
+						};
+						nAttributes=1;
+					};
+				};
+				class Item15
+				{
+					dataType="Group";
+					side="West";
+					class Entities
+					{
+						items=2;
+						class Item0
+						{
+							dataType="Object";
+							class PositionInfo
+							{
 								position[]={14602.158,18.018513,16801.227};
 								angles[]={0,0.77594662,0};
 							};
@@ -75913,7 +76057,7 @@ class Mission
 								description="Pilot@RAIDER-1";
 								isPlayable=1;
 							};
-							id=16407;
+							id=16995;
 							type="Cav_B_A_Helicopter_Att_Pilot_Raider_1_F";
 							atlOffset=0.0070762634;
 							class CustomAttributes
@@ -75978,7 +76122,7 @@ class Mission
 								description="Co-Pilot@RAIDER-1";
 								isPlayable=1;
 							};
-							id=16408;
+							id=16996;
 							type="Cav_B_A_Helicopter_Att_coPilot_F";
 							atlOffset=0.0070762634;
 							class CustomAttributes
@@ -76030,7 +76174,7 @@ class Mission
 					{
 						dynamicSimulation=1;
 					};
-					id=16406;
+					id=16994;
 					atlOffset=0.0070762634;
 					class CustomAttributes
 					{
@@ -76050,7 +76194,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item15
+				class Item16
 				{
 					dataType="Group";
 					side="West";
@@ -76075,7 +76219,7 @@ class Mission
 								description="Pilot@HOG-1";
 								isPlayable=1;
 							};
-							id=16421;
+							id=16998;
 							type="Cav_B_A_Plane_Fighter_Pilot_Hog_1_F";
 							atlOffset=0.0070762634;
 							class CustomAttributes
@@ -76126,7 +76270,7 @@ class Mission
 					class Attributes
 					{
 					};
-					id=16420;
+					id=16997;
 					atlOffset=0.0070762634;
 					class CustomAttributes
 					{
@@ -76146,7 +76290,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item16
+				class Item17
 				{
 					dataType="Group";
 					side="West";
@@ -76171,7 +76315,7 @@ class Mission
 								description="Pilot@LIGHTNING-1";
 								isPlayable=1;
 							};
-							id=16423;
+							id=17000;
 							type="Cav_B_A_Plane_Fighter_Pilot_F";
 							atlOffset=0.0070762634;
 							class CustomAttributes
@@ -76222,7 +76366,7 @@ class Mission
 					class Attributes
 					{
 					};
-					id=16422;
+					id=16999;
 					atlOffset=0.0070762634;
 					class CustomAttributes
 					{
@@ -76242,7 +76386,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item17
+				class Item18
 				{
 					dataType="Group";
 					side="West";
@@ -76265,7 +76409,7 @@ class Mission
 								description="Drone Pilot@REAPER-1";
 								isPlayable=1;
 							};
-							id=16425;
+							id=17002;
 							type="Cav_B_A_AirController_F";
 							atlOffset=0.0070762634;
 							class CustomAttributes
@@ -76316,7 +76460,7 @@ class Mission
 					class Attributes
 					{
 					};
-					id=16424;
+					id=17001;
 					atlOffset=0.0070762634;
 					class CustomAttributes
 					{
@@ -76336,7 +76480,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item18
+				class Item19
 				{
 					dataType="Group";
 					side="West";
@@ -76361,7 +76505,7 @@ class Mission
 								description="Pilot@TITAN-1";
 								isPlayable=1;
 							};
-							id=16427;
+							id=17004;
 							type="Cav_B_A_Plane_Transport_Pilot_Titan_1_F";
 							atlOffset=0.0070762634;
 							class CustomAttributes
@@ -76426,7 +76570,7 @@ class Mission
 								description="Co-Pilot@TITAN-1";
 								isPlayable=1;
 							};
-							id=16428;
+							id=17005;
 							type="Cav_B_A_Plane_Transport_coPilot_F";
 							atlOffset=0.0070762634;
 							class CustomAttributes
@@ -76477,7 +76621,7 @@ class Mission
 					class Attributes
 					{
 					};
-					id=16426;
+					id=17003;
 					atlOffset=0.0070762634;
 					class CustomAttributes
 					{
@@ -76497,7 +76641,7 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item19
+				class Item20
 				{
 					dataType="Group";
 					side="West";
@@ -76522,7 +76666,7 @@ class Mission
 								description="Military Police@MILITARY-POLICE";
 								isPlayable=1;
 							};
-							id=16430;
+							id=17007;
 							type="Cav_B_A_JFO_F";
 							atlOffset=0.077999115;
 							class CustomAttributes
@@ -76574,7 +76718,7 @@ class Mission
 								description="Military Police@MILITARY-POLICE";
 								isPlayable=1;
 							};
-							id=16431;
+							id=17008;
 							type="Cav_B_A_JFO_F";
 							atlOffset=0.12100029;
 							class CustomAttributes
@@ -76612,7 +76756,7 @@ class Mission
 					class Attributes
 					{
 					};
-					id=16429;
+					id=17006;
 					atlOffset=0.077999115;
 					class CustomAttributes
 					{
@@ -76632,41 +76776,39 @@ class Mission
 						nAttributes=1;
 					};
 				};
-				class Item20
+				class Item21
 				{
-					dataType="Layer";
-					name="S3_Mission_Controllers_[DEVBUILD]";
+					dataType="Group";
+					side="West";
 					class Entities
 					{
-						items=7;
+						items=3;
 						class Item0
 						{
-							dataType="Logic";
+							dataType="Object";
 							class PositionInfo
 							{
-								position[]={14576.906,17.91,16757.594};
+								position[]={14581.584,18.041437,16756.971};
+								angles[]={0,3.0190182,0};
 							};
-							id=13168;
-							type="ModuleCuratorAddEditableObjects";
+							side="West";
+							flags=6;
+							class Attributes
+							{
+								init="this setGroupid [""ZEUS""];" \n "this setVariable [""cScripts_Player_Unit"", ""ZEUS""];";
+								name="S3";
+								description="Lead Mission Controller@GODFATHER";
+								isPlayable=1;
+							};
+							id=17010;
+							type="Cav_B_A_JFO_F";
+							atlOffset=0.0049991608;
 							class CustomAttributes
 							{
 								class Attribute0
 								{
-									property="ModuleCuratorAddEditableObjects_Curator";
-									expression="_this setVariable ['Curator',_value,true];";
-									class Value
-									{
-										class data
-										{
-											singleType="STRING";
-											value="Z1,Z2,Z3,Z4";
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="ModuleCuratorAddEditableObjects_AddCrew";
-									expression="_this setVariable ['AddCrew',_value,true];";
+									property="acex_headless_blacklist";
+									expression="_this setVariable [""acex_headless_blacklist"", _value, true]";
 									class Value
 									{
 										class data
@@ -76676,599 +76818,590 @@ class Mission
 										};
 									};
 								};
-								nAttributes=2;
+								class Attribute1
+								{
+									property="allowDamage";
+									expression="_this allowdamage _value;";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=0;
+										};
+									};
+								};
+								class Attribute2
+								{
+									property="speaker";
+									expression="_this setspeaker _value;";
+									class Value
+									{
+										class data
+										{
+											singleType="STRING";
+											value="Male05ENG";
+										};
+									};
+								};
+								class Attribute3
+								{
+									property="pitch";
+									expression="_this setpitch _value;";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=0.98000002;
+										};
+									};
+								};
+								class Attribute4
+								{
+									property="enableStamina";
+									expression="_this enablestamina _value;";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=0;
+										};
+									};
+								};
+								nAttributes=5;
 							};
 						};
 						class Item1
 						{
-							dataType="Logic";
+							dataType="Object";
 							class PositionInfo
 							{
-								position[]={14576.018,17.91,16757.701};
-								angles[]={0,3.1985602,0};
+								position[]={14582.848,18.041481,16758.004};
+								angles[]={0,3.0190217,0};
 							};
-							name="Z1";
-							id=13169;
-							type="ModuleCurator_F";
+							side="West";
+							flags=4;
+							class Attributes
+							{
+								init="this setGroupid [""ZEUS""];" \n "this setVariable [""cScripts_Player_Unit"", ""ZEUS""];";
+								name="S3_1";
+								description="Assistant Mission Controller@MISSION CONTROLLERS";
+								isPlayable=1;
+							};
+							id=17011;
+							type="Cav_B_A_JFO_F";
+							atlOffset=0.0050430298;
 							class CustomAttributes
 							{
 								class Attribute0
 								{
-									property="ModuleCurator_F_Owner";
-									expression="_this setVariable ['Owner',_value,true];";
+									property="acex_headless_blacklist";
+									expression="_this setVariable [""acex_headless_blacklist"", _value, true]";
 									class Value
 									{
 										class data
 										{
-											singleType="STRING";
-											value="S3";
+											singleType="BOOL";
+											value=0;
 										};
 									};
 								};
 								class Attribute1
 								{
-									property="ModuleCurator_F_Forced";
-									expression="_this setVariable ['Forced',_value,true];";
+									property="allowDamage";
+									expression="_this allowdamage _value;";
 									class Value
 									{
 										class data
 										{
-											singleType="SCALAR";
+											singleType="BOOL";
 											value=0;
 										};
 									};
 								};
 								class Attribute2
 								{
-									property="ModuleCurator_F_Name";
-									expression="_this setVariable ['Name',_value,true];";
+									property="speaker";
+									expression="_this setspeaker _value;";
 									class Value
 									{
 										class data
 										{
 											singleType="STRING";
-											value="";
+											value="Male05ENG";
 										};
 									};
 								};
 								class Attribute3
 								{
-									property="ModuleCurator_F_Addons";
-									expression="_this setVariable ['Addons',_value,true];";
+									property="pitch";
+									expression="_this setpitch _value;";
 									class Value
 									{
 										class data
 										{
 											singleType="SCALAR";
-											value=3;
+											value=0.98000002;
 										};
 									};
 								};
-								nAttributes=4;
+								class Attribute4
+								{
+									property="enableStamina";
+									expression="_this enablestamina _value;";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=0;
+										};
+									};
+								};
+								nAttributes=5;
 							};
 						};
 						class Item2
 						{
-							dataType="Logic";
+							dataType="Object";
 							class PositionInfo
 							{
-								position[]={14576.42,17.91,16758.137};
-								angles[]={0,3.1985602,0};
+								position[]={14584.271,18.041481,16759.283};
+								angles[]={0,3.0190217,0};
 							};
-							name="Z2";
-							id=13170;
-							type="ModuleCurator_F";
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="ModuleCurator_F_Owner";
-									expression="_this setVariable ['Owner',_value,true];";
-									class Value
-									{
-										class data
-										{
-											singleType="STRING";
-											value="S3_1";
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="ModuleCurator_F_Forced";
-									expression="_this setVariable ['Forced',_value,true];";
-									class Value
-									{
-										class data
-										{
-											singleType="SCALAR";
-											value=0;
-										};
-									};
-								};
-								class Attribute2
-								{
-									property="ModuleCurator_F_Name";
-									expression="_this setVariable ['Name',_value,true];";
-									class Value
-									{
-										class data
-										{
-											singleType="STRING";
-											value="";
-										};
-									};
-								};
-								class Attribute3
-								{
-									property="ModuleCurator_F_Addons";
-									expression="_this setVariable ['Addons',_value,true];";
-									class Value
-									{
-										class data
-										{
-											singleType="SCALAR";
-											value=3;
-										};
-									};
-								};
-								nAttributes=4;
-							};
-						};
-						class Item3
-						{
-							dataType="Logic";
-							class PositionInfo
-							{
-								position[]={14576.622,17.91,16758.348};
-								angles[]={0,3.1985602,0};
-							};
-							name="Z3";
-							id=13171;
-							type="ModuleCurator_F";
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="ModuleCurator_F_Owner";
-									expression="_this setVariable ['Owner',_value,true];";
-									class Value
-									{
-										class data
-										{
-											singleType="STRING";
-											value="S3_2";
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="ModuleCurator_F_Forced";
-									expression="_this setVariable ['Forced',_value,true];";
-									class Value
-									{
-										class data
-										{
-											singleType="SCALAR";
-											value=0;
-										};
-									};
-								};
-								class Attribute2
-								{
-									property="ModuleCurator_F_Name";
-									expression="_this setVariable ['Name',_value,true];";
-									class Value
-									{
-										class data
-										{
-											singleType="STRING";
-											value="";
-										};
-									};
-								};
-								class Attribute3
-								{
-									property="ModuleCurator_F_Addons";
-									expression="_this setVariable ['Addons',_value,true];";
-									class Value
-									{
-										class data
-										{
-											singleType="SCALAR";
-											value=3;
-										};
-									};
-								};
-								nAttributes=4;
-							};
-						};
-						class Item4
-						{
-							dataType="Logic";
-							class PositionInfo
-							{
-								position[]={14576.181,17.91,16757.965};
-								angles[]={0,3.1985602,0};
-							};
-							name="Z4";
-							id=13172;
-							type="ModuleCurator_F";
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="ModuleCurator_F_Owner";
-									expression="_this setVariable ['Owner',_value,true];";
-									class Value
-									{
-										class data
-										{
-											singleType="STRING";
-											value="#AdminLogged";
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="ModuleCurator_F_Forced";
-									expression="_this setVariable ['Forced',_value,true];";
-									class Value
-									{
-										class data
-										{
-											singleType="SCALAR";
-											value=0;
-										};
-									};
-								};
-								class Attribute2
-								{
-									property="ModuleCurator_F_Name";
-									expression="_this setVariable ['Name',_value,true];";
-									class Value
-									{
-										class data
-										{
-											singleType="STRING";
-											value="";
-										};
-									};
-								};
-								class Attribute3
-								{
-									property="ModuleCurator_F_Addons";
-									expression="_this setVariable ['Addons',_value,true];";
-									class Value
-									{
-										class data
-										{
-											singleType="SCALAR";
-											value=3;
-										};
-									};
-								};
-								nAttributes=4;
-							};
-						};
-						class Item5
-						{
-							dataType="Logic";
-							class PositionInfo
-							{
-								position[]={14581.342,17.91,16772.859};
-							};
-							id=13173;
-							type="ModuleRespawnPositionWest_F";
-						};
-						class Item6
-						{
-							dataType="Group";
 							side="West";
-							class Entities
-							{
-								items=3;
-								class Item0
-								{
-									dataType="Object";
-									class PositionInfo
-									{
-										position[]={14581.584,18.041437,16756.971};
-										angles[]={0,3.0190182,0};
-									};
-									side="West";
-									flags=6;
-									class Attributes
-									{
-										init="this setGroupid [""ZEUS""];" \n "this setVariable [""cScripts_Player_Unit"", ""ZEUS""];";
-										name="S3";
-										description="Lead Mission Controller@GODFATHER";
-										isPlayable=1;
-									};
-									id=16433;
-									type="Cav_B_A_JFO_F";
-									atlOffset=0.0049991608;
-									class CustomAttributes
-									{
-										class Attribute0
-										{
-											property="acex_headless_blacklist";
-											expression="_this setVariable [""acex_headless_blacklist"", _value, true]";
-											class Value
-											{
-												class data
-												{
-													singleType="BOOL";
-													value=0;
-												};
-											};
-										};
-										class Attribute1
-										{
-											property="allowDamage";
-											expression="_this allowdamage _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="BOOL";
-													value=0;
-												};
-											};
-										};
-										class Attribute2
-										{
-											property="speaker";
-											expression="_this setspeaker _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="Male05ENG";
-												};
-											};
-										};
-										class Attribute3
-										{
-											property="pitch";
-											expression="_this setpitch _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=0.98000002;
-												};
-											};
-										};
-										class Attribute4
-										{
-											property="enableStamina";
-											expression="_this enablestamina _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="BOOL";
-													value=0;
-												};
-											};
-										};
-										nAttributes=5;
-									};
-								};
-								class Item1
-								{
-									dataType="Object";
-									class PositionInfo
-									{
-										position[]={14582.848,18.041481,16758.004};
-										angles[]={0,3.0190217,0};
-									};
-									side="West";
-									flags=4;
-									class Attributes
-									{
-										init="this setGroupid [""ZEUS""];" \n "this setVariable [""cScripts_Player_Unit"", ""ZEUS""];";
-										name="S3_1";
-										description="Assistant Mission Controller@MISSION CONTROLLERS";
-										isPlayable=1;
-									};
-									id=16434;
-									type="Cav_B_A_JFO_F";
-									atlOffset=0.0050430298;
-									class CustomAttributes
-									{
-										class Attribute0
-										{
-											property="acex_headless_blacklist";
-											expression="_this setVariable [""acex_headless_blacklist"", _value, true]";
-											class Value
-											{
-												class data
-												{
-													singleType="BOOL";
-													value=0;
-												};
-											};
-										};
-										class Attribute1
-										{
-											property="allowDamage";
-											expression="_this allowdamage _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="BOOL";
-													value=0;
-												};
-											};
-										};
-										class Attribute2
-										{
-											property="speaker";
-											expression="_this setspeaker _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="Male05ENG";
-												};
-											};
-										};
-										class Attribute3
-										{
-											property="pitch";
-											expression="_this setpitch _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=0.98000002;
-												};
-											};
-										};
-										class Attribute4
-										{
-											property="enableStamina";
-											expression="_this enablestamina _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="BOOL";
-													value=0;
-												};
-											};
-										};
-										nAttributes=5;
-									};
-								};
-								class Item2
-								{
-									dataType="Object";
-									class PositionInfo
-									{
-										position[]={14584.271,18.041481,16759.283};
-										angles[]={0,3.0190217,0};
-									};
-									side="West";
-									flags=4;
-									class Attributes
-									{
-										init="this setGroupid [""ZEUS""];" \n "this setVariable [""cScripts_Player_Unit"", ""ZEUS""];";
-										name="S3_2";
-										description="Assistant Mission Controller@MISSION CONTROLLERS";
-										isPlayable=1;
-									};
-									id=16435;
-									type="Cav_B_A_JFO_F";
-									atlOffset=0.0050430298;
-									class CustomAttributes
-									{
-										class Attribute0
-										{
-											property="acex_headless_blacklist";
-											expression="_this setVariable [""acex_headless_blacklist"", _value, true]";
-											class Value
-											{
-												class data
-												{
-													singleType="BOOL";
-													value=0;
-												};
-											};
-										};
-										class Attribute1
-										{
-											property="allowDamage";
-											expression="_this allowdamage _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="BOOL";
-													value=0;
-												};
-											};
-										};
-										class Attribute2
-										{
-											property="speaker";
-											expression="_this setspeaker _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="STRING";
-													value="Male05ENG";
-												};
-											};
-										};
-										class Attribute3
-										{
-											property="pitch";
-											expression="_this setpitch _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="SCALAR";
-													value=0.98000002;
-												};
-											};
-										};
-										class Attribute4
-										{
-											property="enableStamina";
-											expression="_this enablestamina _value;";
-											class Value
-											{
-												class data
-												{
-													singleType="BOOL";
-													value=0;
-												};
-											};
-										};
-										nAttributes=5;
-									};
-								};
-							};
+							flags=4;
 							class Attributes
 							{
+								init="this setGroupid [""ZEUS""];" \n "this setVariable [""cScripts_Player_Unit"", ""ZEUS""];";
+								name="S3_2";
+								description="Assistant Mission Controller@MISSION CONTROLLERS";
+								isPlayable=1;
 							};
-							id=16432;
-							atlOffset=0.0049991608;
+							id=17012;
+							type="Cav_B_A_JFO_F";
+							atlOffset=0.0050430298;
 							class CustomAttributes
 							{
 								class Attribute0
 								{
-									property="groupID";
-									expression="                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID [_value];                            } else {                                [_this, _value] call CBA_fnc_setCallsign;                            };";
+									property="acex_headless_blacklist";
+									expression="_this setVariable [""acex_headless_blacklist"", _value, true]";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=0;
+										};
+									};
+								};
+								class Attribute1
+								{
+									property="allowDamage";
+									expression="_this allowdamage _value;";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=0;
+										};
+									};
+								};
+								class Attribute2
+								{
+									property="speaker";
+									expression="_this setspeaker _value;";
 									class Value
 									{
 										class data
 										{
 											singleType="STRING";
-											value="GODFATHER";
+											value="Male05ENG";
 										};
 									};
 								};
-								nAttributes=1;
+								class Attribute3
+								{
+									property="pitch";
+									expression="_this setpitch _value;";
+									class Value
+									{
+										class data
+										{
+											singleType="SCALAR";
+											value=0.98000002;
+										};
+									};
+								};
+								class Attribute4
+								{
+									property="enableStamina";
+									expression="_this enablestamina _value;";
+									class Value
+									{
+										class data
+										{
+											singleType="BOOL";
+											value=0;
+										};
+									};
+								};
+								nAttributes=5;
 							};
 						};
 					};
-					id=13163;
-					atlOffset=0.064998627;
+					class Attributes
+					{
+					};
+					id=17009;
+					atlOffset=0.0049991608;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="groupID";
+							expression="                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID [_value];                            } else {                                [_this, _value] call CBA_fnc_setCallsign;                            };";
+							class Value
+							{
+								class data
+								{
+									singleType="STRING";
+									value="GODFATHER";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 			};
-			id=16436;
-			atlOffset=0.078742981;
+			id=17013;
+			atlOffset=0.11124802;
+		};
+		class Item105
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={14576.906,17.91,16757.594};
+			};
+			id=13168;
+			type="ModuleCuratorAddEditableObjects";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleCuratorAddEditableObjects_Curator";
+					expression="_this setVariable ['Curator',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="Z1,Z2,Z3,Z4";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleCuratorAddEditableObjects_AddCrew";
+					expression="_this setVariable ['AddCrew',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item106
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={14576.018,17.91,16757.701};
+				angles[]={0,3.1985602,0};
+			};
+			name="Z1";
+			id=13169;
+			type="ModuleCurator_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleCurator_F_Owner";
+					expression="_this setVariable ['Owner',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="S3";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleCurator_F_Forced";
+					expression="_this setVariable ['Forced',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=0;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleCurator_F_Name";
+					expression="_this setVariable ['Name',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleCurator_F_Addons";
+					expression="_this setVariable ['Addons',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=3;
+						};
+					};
+				};
+				nAttributes=4;
+			};
+		};
+		class Item107
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={14576.42,17.91,16758.137};
+				angles[]={0,3.1985602,0};
+			};
+			name="Z2";
+			id=13170;
+			type="ModuleCurator_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleCurator_F_Owner";
+					expression="_this setVariable ['Owner',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="S3_1";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleCurator_F_Forced";
+					expression="_this setVariable ['Forced',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=0;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleCurator_F_Name";
+					expression="_this setVariable ['Name',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleCurator_F_Addons";
+					expression="_this setVariable ['Addons',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=3;
+						};
+					};
+				};
+				nAttributes=4;
+			};
+		};
+		class Item108
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={14576.622,17.91,16758.348};
+				angles[]={0,3.1985602,0};
+			};
+			name="Z3";
+			id=13171;
+			type="ModuleCurator_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleCurator_F_Owner";
+					expression="_this setVariable ['Owner',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="S3_2";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleCurator_F_Forced";
+					expression="_this setVariable ['Forced',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=0;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleCurator_F_Name";
+					expression="_this setVariable ['Name',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleCurator_F_Addons";
+					expression="_this setVariable ['Addons',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=3;
+						};
+					};
+				};
+				nAttributes=4;
+			};
+		};
+		class Item109
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={14576.181,17.91,16757.965};
+				angles[]={0,3.1985602,0};
+			};
+			name="Z4";
+			id=13172;
+			type="ModuleCurator_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleCurator_F_Owner";
+					expression="_this setVariable ['Owner',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="#AdminLogged";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleCurator_F_Forced";
+					expression="_this setVariable ['Forced',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=0;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleCurator_F_Name";
+					expression="_this setVariable ['Name',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleCurator_F_Addons";
+					expression="_this setVariable ['Addons',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=3;
+						};
+					};
+				};
+				nAttributes=4;
+			};
+		};
+		class Item110
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={14581.342,17.91,16772.859};
+			};
+			id=13173;
+			type="ModuleRespawnPositionWest_F";
 		};
 	};
 	class Connections
