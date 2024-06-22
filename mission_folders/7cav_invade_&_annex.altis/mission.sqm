@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=15841;
+		nextID=16031;
 	};
 	class Camera
 	{
-		pos[]={14657.109,64.529762,16730.877};
-		dir[]={-0.59567511,-0.5683983,0.56755733};
-		up[]={-0.41151485,0.82275504,0.39208907};
-		aside[]={0.689821,-2.2523454e-007,0.72399801};
+		pos[]={14694.75,74.68824,16717.225};
+		dir[]={-0.62095875,-0.55432171,0.55442482};
+		up[]={-0.41353455,0.83224016,0.36922839};
+		aside[]={0.66608387,1.0761141e-006,0.74602354};
 	};
 };
 binarizationWanted=0;
@@ -71782,7 +71782,6 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="board1 addAction [""Spawn Med Crate"",""scripts\medcrate.sqf""];" \n "board1 addAction [""Spawn Ammo Crate"",""scripts\ammocrate.sqf""];" \n "board1 addAction [""Spawn Vehicle Ammo Crate"",""scripts\vehammocrate.sqf""];" \n "";
 				name="crate_spawner";
 				disableSimulation=1;
 			};
@@ -75577,7 +75576,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={14613.989,18.011436,16796.445};
-								angles[]={0,5.3802114,-0};
+								angles[]={0,5.3802114,0};
 							};
 							side="West";
 							flags=6;
@@ -75641,7 +75640,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={14615.432,18.011436,16796.373};
-								angles[]={0,5.5638256,-0};
+								angles[]={0,5.5638256,0};
 							};
 							side="West";
 							flags=5;
