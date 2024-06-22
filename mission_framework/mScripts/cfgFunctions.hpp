@@ -21,6 +21,7 @@ class mScripts{
 		file = "mScripts\functions\players";
 
 		class addActions {};
+		class checkPilot {};
 		class HaloJump {};
 		class initializePlayer {};
 
