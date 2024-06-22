@@ -7,4 +7,8 @@ if (!isDedicated) then {
 
 [] spawn mScripts_fnc_initializePlayer;
 
-} else {};
+};
+
+if (isDedicated || isMultiplayer) then {
+
+};

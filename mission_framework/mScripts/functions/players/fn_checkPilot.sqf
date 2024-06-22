@@ -7,6 +7,10 @@ _allowedHeli = ["Helicopter",_playerClass,true] call BIS_fnc_inString;
 _allowedPlane = ["Plane",_playerClass,true] call BIS_fnc_inString;
 _teamspeak = if ([] call TFAR_fnc_getTeamSpeakServerName == "7th Cavalry Gaming") then {true} else {false};
 
+_chuteException = ["chute",typeOf _vehicle] call BIS_fnc_inString;
+
+if (_chuteException) exitWith {};
+
 if (_vehicle isKindOf "Plane" || _vehicle  isKindOf "Helicopter") then {
 
 	if (_role select 0 == "Cargo") exitWith {};

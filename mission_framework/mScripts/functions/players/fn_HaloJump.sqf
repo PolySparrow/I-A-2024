@@ -1,6 +1,18 @@
 params ["_caller"];
 
-_altitude = 1000;
+_altitude = 3000;
+
+_transportClasses = [
+	"Cav_B_A_Helicopter_Tra_Pilot_F", 
+	"Cav_B_A_Helicopter_Tra_coPilot_F", 
+	"Cav_B_A_Helicopter_Tra_CrewChief_F", 
+	"Cav_B_A_Helicopter_Tra_DoorGunner_F", 
+	"Cav_B_A_Helicopter_Tra_Pilot_B1_F"
+];
+
+if (allPlayers findIf {typeOf _x in _transportClasses} > -1) exitWith {
+	titleText ["A transport pilot is online. Halo Jump is disabled.","PLAIN",0.2];
+};
 
 openMap true;
 titleText ["Click on the map where you would like to HALO Jump.","PLAIN",0.2];
@@ -39,6 +51,3 @@ if ( _backpack isNotEqualTo "" && _backpack != "B_Parachute" ) then {
 	clearAllItemsFromBackpack _caller;
 	{ _caller addItemToBackpack _x } foreach _backpackcontents;
 };
-
-
-

@@ -27,4 +27,10 @@ class mScripts{
 
 	};
 
+	class server {
+
+		file = "mscripts\functions\server";
+
+	};
+
 };
