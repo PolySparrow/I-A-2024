@@ -243,3 +243,7 @@ class Extended_PreInit_EventHandlers {
 class Extended_PostInit_EventHandlers {
     cScripts_postInit = "0 spawn compile preprocessFileLineNumbers 'cScripts\cScripts_postInit.sqf'";
 };
+
+class cfgDebriefing {
+    #include "cav_debriefs.inc"
+};

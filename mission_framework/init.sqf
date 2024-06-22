@@ -5,6 +5,6 @@ execVM "core\client\QS_icons.sqf";
 
 if (!isDedicated) then {
 
-[] call mScripts_fnc_addActions;
+[] spawn mScripts_fnc_initializePlayer;
 
 } else {};

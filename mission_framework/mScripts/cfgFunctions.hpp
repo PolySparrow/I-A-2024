@@ -22,6 +22,7 @@ class mScripts{
 
 		class addActions {};
 		class HaloJump {};
+		class initializePlayer {};
 
 	};
 
