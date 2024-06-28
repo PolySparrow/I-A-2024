@@ -1,19 +1,24 @@
-private _uniqueName = _this select 0; // Has to be unique mission will have issues if not
-private _displayName = _this select 1; // Display Text
-private _zoneRadius = _this select 2; // Radius of the zone
-private _objectToUse = _this select 3; // Object to use such as a building or vehicle
-private _objective = _this select 4; // The objective type
-private _deleteMarkerOnCapture = _this select 5; // If the marker is deleted on capture
-private _textOnTaken = _this select 6; // Text when object is completed
-private _groupsIfKill = _this select 7; // units to spawn at objective
-private _mattersToObjectiveSquad = _this select 8; // If the friendly AI will ignore this objective
-private _requiresCompletedToCaptureZone = _this select 9; // If the capture of the main zone requires the capture of this zone
-private _brushType = _this select 10;
-private _shapeType = _this select 11;
-private _position = _this select 12;
-private _removeOnZoneCompleted = _this select 13;
-private _aiStates = _this select 14;
-private _garrison = _this select 15;
+params [
+
+	"_uniqueName", 							// Has to be unique mission will have issues if not
+	"_displayName",							// Display Text
+	"_zoneRadius",							// Radius of the zone
+	"_objectToUse",							// Object to use such as a building or vehicle
+	"_objective",							// The objective type
+	"_deleteMarkerOnCapture",				// If the marker is deleted on capture
+	"_textOnTaken",							// Text when object is completed
+	"_groupsIfKill",						// units to spawn at objective
+	"_mattersToObjectiveSquad",				// If the friendly AI will ignore this objective
+	"_requiresCompletedToCaptureZone",		// If the capture of the main zone requires the capture of this zone
+	"_brushType",
+	"_shapeType",
+	"_position",
+	"_removeOnZoneCompleted",
+	"_aiStates",
+	"_garrison",
+	["_mAlpha",1]							// OPTIONAL - Marker Alpha to be used. 0 = Transparent, 1 = Visible
+	
+];
 
 private _spawnedObj = nil;
 private _objectivePosition = nil;
@@ -124,9 +129,9 @@ br_fnc_createObjective = {
 	_spawnedObj enableSimulationGlobal false;
 	if (count _objectToUse != 0) then { _objects append ([_spawnedObj, _objectToUse] call compile preprocessFileLineNumbers "core\server\functions\fn_createComposition.sqf"); };
 	// Creates the radius
-	[_radiusName, _objectiveOrigin, _zoneRadius, 360, "ColorRed", _radiusName, 1, _brushType, _shapeType] call fn_createRadiusMarker;
+	[_radiusName, _objectiveOrigin, _zoneRadius, 360, "ColorRed", _radiusName, _mAlpha, _brushType, _shapeType] call fn_createRadiusMarker;
 	// Create text icon
-	[_textName, _objectiveOrigin, _displayName, "ColorBlue", 1] call fn_createTextMarker;
+	[_textName, _objectiveOrigin, _displayName, "ColorBlue", _mAlpha] call fn_createTextMarker;
 	[_objectiveLocation, _objectivePosition, "", "ColorBlue", 0] call fn_createTextMarker;
 	br_objectives pushBack [_uniqueName, _spawnedObj, _groupsToKill, _objective, _mattersToObjectiveSquad, _zoneVarName, _requiresCompletedToCaptureZone, _removeOnZoneCompleted, _objectiveOrigin, _zoneRadius, _radiusName];
 	// Wait untill objective is completed

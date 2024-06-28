@@ -259,9 +259,9 @@ br_get_groups = {
 br_random_objectives = {
 	// Create HQ
 	private _groupSpawn = ["HQ",["O_officer_F", "O_Soldier_F", "O_Soldier_AT_F", "O_Soldier_AA_F", "O_medic_F", "O_Soldier_GL_F"]] call br_get_groups;
-	if (br_hq_enabled) then {["HQ", "HQ", 10, selectrandom (call compileFinal preprocessFileLineNumbers "core\savedassets\bases.sqf"), "Kill", TRUE, "HQ Taken!", _groupSpawn, TRUE, TRUE, "Border", "ELLIPSE", getMarkerPos "ZONE_RADIUS", TRUE, [["PATH", FALSE]], TRUE] execVM "core\server\zone_objective\fn_createObjective.sqf";};
+	if (br_hq_enabled) then {["HQ", "HQ", 10, selectrandom (call compileFinal preprocessFileLineNumbers "core\savedassets\bases.sqf"), "Kill", TRUE, "HQ Taken!", _groupSpawn, TRUE, TRUE, "Border", "ELLIPSE", getMarkerPos "ZONE_RADIUS", TRUE, [["PATH", FALSE]], TRUE,1] execVM "core\server\zone_objective\fn_createObjective.sqf";};
 	// Create radio tower
-	if (br_radio_tower_enabled) then {["Radio_Tower", "Radio Tower", 8, selectrandom (call radio_towers), "Destory", TRUE, "Radio Tower Destroyed!", [], TRUE, TRUE, "Border", "ELLIPSE", getMarkerPos "ZONE_RADIUS", TRUE, [], FALSE] execVM "core\server\zone_objective\fn_createObjective.sqf";};
+	if (br_radio_tower_enabled) then {["Radio_Tower", "Radio Tower", 8, selectrandom (call radio_towers), "Destory", TRUE, "Radio Tower Destroyed!", [], TRUE, TRUE, "Border", "ELLIPSE", getMarkerPos "ZONE_RADIUS", TRUE, [], FALSE,1] execVM "core\server\zone_objective\fn_createObjective.sqf";};
 	// Create a random objective
 	if (br_zone_side_enabled) then {
 		private _zoneSideObjective = selectrandom (call zone_objectives);
@@ -282,7 +282,8 @@ br_random_objectives = {
 			_zoneSideObjective select 12,
 			_zoneSideObjective select 13,
 			_zoneSideObjective select 14,
-			_zoneSideObjective select 15
+			_zoneSideObjective select 15,
+			1
 		] execVM "core\server\zone_objective\fn_createObjective.sqf";
 	}
 };
