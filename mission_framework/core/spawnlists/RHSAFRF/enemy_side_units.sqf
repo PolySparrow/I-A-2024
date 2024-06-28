@@ -9,5 +9,5 @@
 	["Helicopter", ["RHS_Mi24P_vdv"]],
 	["AA_Zone", ["rhs_zsu234_aa"]],
 	["Enemy_Camp", ["rhs_msv_emr_rifleman", "rhs_msv_emr_rifleman", "rhs_msv_emr_at", "rhs_msv_emr_rifleman", "rhs_msv_emr_rifleman"]],
-	["Enemy_Mortors", ["rhs_2b14_82mm_vdv", "rhs_2b14_82mm_vdv", "rhs_gaz66_zu23_vdv", "rhs_btr80_vdv"]]
+	["Enemy_Mortars", ["rhs_2b14_82mm_vdv", "rhs_2b14_82mm_vdv", "rhs_gaz66_zu23_vdv", "rhs_btr80_vdv"]]
 ]
