@@ -51,6 +51,5 @@
 "rhs_ka60_c",
 "rhs_ka60_grey",
 "RHS_Su25SM_vvs",
-"RHS_T50_vvs_051",
-"rhs_pchela1t_vvsc"
+"RHS_T50_vvs_051"
 ];
