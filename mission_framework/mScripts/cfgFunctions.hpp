@@ -31,6 +31,7 @@ class mScripts{
 
 		file = "mscripts\functions\server";
 
+		class vehicleDespawner {};
 	};
 
 };
