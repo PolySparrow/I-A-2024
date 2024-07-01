@@ -24,3 +24,19 @@ crate_spawner addAction [
 	}
 
 ];
+
+crate_spawner addAction[
+   
+    "Pull Wheel",
+    {
+        "ACE_Wheel" createVehicle getMarkerPos "crate_spawn_location";
+    }
+];
+
+crate_spawner addAction[
+   
+    "Pull Track",
+    {
+        "ACE_Track" createVehicle getMarkerPos "crate_spawn_location";
+    }
+];
