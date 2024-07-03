@@ -6,28 +6,24 @@ class EditorData
 	scaleGridStep=0.1;
 	autoGroupingDist=10;
 	toggles=514;
-	mods[]=
-	{
-		"3denEnhanced"
-	};
 	class ItemIDProvider
 	{
-		nextID=17128;
+		nextID=17146;
 	};
 	class MarkerIDProvider
 	{
-		nextID=72;
+		nextID=73;
 	};
 	class LayerIndexProvider
 	{
-		nextID=16316;
+		nextID=16335;
 	};
 	class Camera
 	{
-		pos[]={14507.275,39.676506,16736.311};
-		dir[]={0.73366731,-0.24543689,0.63382608};
-		up[]={0.18582208,0.96930742,0.16052802};
-		aside[]={0.65381563,2.0357547e-006,-0.75681615};
+		pos[]={14628.55,35.695629,16729.932};
+		dir[]={-0.97008079,-0.2432601,0.00069259439};
+		up[]={-0.24338822,0.96982414,0.00017761499};
+		aside[]={0.0007194645,2.1042902e-006,1.000113};
 	};
 };
 binarizationWanted=0;
@@ -83,13 +79,15 @@ addons[]=
 	"CUP_StandaloneTerrains_Core_Faction",
 	"rhsusf_c_m109",
 	"A3_Structures_F_Enoch_Military_Camps",
-	"A3_Signs_F_Signs_Ad"
+	"A3_Signs_F_Signs_Ad",
+	"A3_Structures_F_Walls",
+	"CUP_CA_Config"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=42;
+		items=43;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -368,6 +366,11 @@ class AddonsMetaData
 			name="Arma 3 Contact Platform - Military Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
+		};
+		class Item42
+		{
+			className="CUP_CA_Config";
+			name="CUP_CA_Config";
 		};
 	};
 };
@@ -68399,7 +68402,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=171;
+		items=177;
 		class Item0
 		{
 			dataType="Marker";
@@ -78025,7 +78028,7 @@ class Mission
 			fillName="Horizontal";
 			a=5;
 			b=5;
-			angle=223.96791;
+			angle=223.9679;
 			id=17042;
 		};
 		class Item124
@@ -79624,7 +79627,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={14600.783,18.951054,16711.266};
-				angles[]={0,3.6712132,-0};
+				angles[]={0,3.6712132,0};
 			};
 			side="Empty";
 			flags=5;
@@ -79835,6 +79838,228 @@ class Mission
 						{
 							singleType="STRING";
 							value="textures\cratespawnersign.paa";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item171
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={14552.938,22.285282,16747.387};
+				angles[]={0,3.9016659,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+			};
+			id=17131;
+			type="Land_BarGate_F";
+			atlOffset=0.32500076;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item172
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={14559.646,18.951054,16744.367};
+				angles[]={0,3.8713324,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				disableSimulation=1;
+			};
+			id=17132;
+			type="SignAd_Sponsor_ARMEX_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ObjectTextureCustom0";
+					expression="_this setObjectTextureGlobal [0,_value]";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="textures\vehiclereturnsign.paa";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item173
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={14549.256,17.91,16756.467};
+				angles[]={0,5.3926554,-0};
+			};
+			areaSize[]={1,0,2};
+			areaIsRectangle=1;
+			flags=1;
+			id=17133;
+			type="ModuleHideTerrainObjects_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="#filter";
+					expression="_this setVariable [""#filter"",_value]";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=15;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="#hideLocally";
+					expression="_this setVariable [""#hideLocally"",_value]";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item174
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={14527.315,30.329052,16743.307};
+				angles[]={0,3.9980781,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=17137;
+			type="Land_LampAirport_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item175
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={14650.904,18.481701,16470.07};
+				angles[]={0.0013372133,0,6.2818484};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=17139;
+			type="RoadBarrier_long";
+			atlOffset=-3.8146973e-006;
+		};
+		class Item176
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={14549.075,18.951054,16753.441};
+				angles[]={0,3.8713324,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				disableSimulation=1;
+			};
+			id=17145;
+			type="SignAd_Sponsor_ARMEX_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ObjectTextureCustom0";
+					expression="_this setObjectTextureGlobal [0,_value]";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="textures\vehiclereturnsign.paa";
 						};
 					};
 				};
