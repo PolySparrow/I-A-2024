@@ -11,4 +11,6 @@ if (!isDedicated) then {
 
 if (isDedicated || isMultiplayer) then {
 
+	[] call mScripts_fnc_manageCleanup;
+
 };
