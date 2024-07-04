@@ -1,5 +1,5 @@
 [
-	["HQ", ["rhs_msv_emr_officer", "rhs_msv_emr_rifleman", "rhs_msv_emr_at", "rhs_msv_emr_aa", "rhs_msv_emr_medic", "rhs_msv_emr_rifleman"]],
+	["HQ", ["rhs_msv_emr_officer", "rhs_msv_emr_rifleman", "rhs_msv_emr_at", "rhs_msv_emr_rifleman", "rhs_msv_emr_rifleman", "rhs_msv_emr_rifleman", "rhs_msv_emr_rifleman", "rhs_msv_emr_rifleman", "rhs_msv_emr_aa", "rhs_msv_emr_medic", "rhs_msv_emr_rifleman"]],
 	["Construction Site", ["rhs_msv_emr_rifleman", "rhs_msv_emr_rifleman", "rhs_msv_emr_rifleman", "rhs_msv_emr_rifleman", "rhs_msv_emr_rifleman", "rhs_msv_emr_rifleman", "rhs_msv_emr_rifleman", "rhs_msv_emr_rifleman", "rhs_msv_emr_rifleman", "rhs_msv_emr_rifleman", "rhs_msv_emr_rifleman", "rhs_msv_emr_rifleman", "rhs_msv_emr_rifleman", "rhs_msv_emr_rifleman", "rhs_msv_emr_rifleman", "rhs_msv_emr_rifleman", "rhs_msv_emr_rifleman"]],
 	["AA", ["rhs_zsu234_aa", "rhs_zsu234_aa", "rhs_tigr_sts_vmf"]],
 	["Artillery", ["rhs_D30_msv", "rhs_D30_msv", "rhs_D30_msv", "rhs_tigr_sts_vmf"]],
