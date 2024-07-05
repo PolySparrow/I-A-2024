@@ -1,0 +1,1 @@
+MSCRIPTS_REDFOR_HQ = ["rhs_msv_emr_officer", "rhs_msv_emr_rifleman", "rhs_msv_emr_at", "rhs_msv_emr_rifleman", "rhs_msv_emr_rifleman", "rhs_msv_emr_rifleman", "rhs_msv_emr_rifleman", "rhs_msv_emr_rifleman", "rhs_msv_emr_aa", "rhs_msv_emr_medic", "rhs_msv_emr_rifleman"];

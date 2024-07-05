@@ -16,7 +16,8 @@ params [
 	"_removeOnZoneCompleted",
 	"_aiStates",
 	"_garrison",
-	["_mAlpha",1]							// OPTIONAL - Marker Alpha to be used. 0 = Transparent, 1 = Visible
+	["_mAlpha",1],							// OPTIONAL - Marker Alpha to be used. 0 = Transparent, 1 = Visible
+	["_mSpawn",false]
 	
 ];
 
@@ -134,10 +135,18 @@ br_fnc_createObjective = {
 	[_textName, _objectiveOrigin, _displayName, "ColorBlue", _mAlpha] call fn_createTextMarker;
 	[_objectiveLocation, _objectivePosition, "", "ColorBlue", 0] call fn_createTextMarker;
 	br_objectives pushBack [_uniqueName, _spawnedObj, _groupsToKill, _objective, _mattersToObjectiveSquad, _zoneVarName, _requiresCompletedToCaptureZone, _removeOnZoneCompleted, _objectiveOrigin, _zoneRadius, _radiusName];
+	
+	if (_mSpawn) then {
+
+		[_objectivePosition,east,MSCRIPTS_REDFOR_HQ,"patrol"] call mScripts_fnc_createObjectiveGroup;
+
+	};
+	
 	// Wait untill objective is completed
 	[] call br_fnc_DoObjectiveAndWaitTillComplete;
 	// Take the objective
 	[] call br_fnc_onTaken;
+
 };
 
 // Called when the objective is taken
