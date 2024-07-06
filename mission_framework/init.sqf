@@ -5,12 +5,12 @@ execVM "core\evannexInit.sqf";
 
 if (!isDedicated) then {
 
-[] spawn mScripts_fnc_initializePlayer;
+	[] spawn mScripts_fnc_initializePlayer;
 
 };
 
 if (isDedicated || isMultiplayer) then {
 
-	[] call mScripts_fnc_manageCleanup;
-	[] call mScripts_fnc_initializeVars;
+	[] call ina_fnc_startServer;
+
 };

@@ -1,16 +1,8 @@
 class mScripts{
-	
-	class mission {
-
-		file = "mScripts\functions\mission_rewrite"
-
-		class createObjectiveGroup {};
-
-	};
 
 	class arsenal {
 
-		file = "mScripts\functions\arsenal"
+		file = "mScripts\functions\arsenal";
 
 		class createArsenal {};
 
@@ -39,7 +31,6 @@ class mScripts{
 
 		file = "mscripts\functions\server";
 
-		class initializeVars {};
 		class manageCleanup {};
 		class scrapVehicle {};
 	};

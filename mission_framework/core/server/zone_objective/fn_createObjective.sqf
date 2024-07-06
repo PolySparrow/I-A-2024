@@ -138,7 +138,7 @@ br_fnc_createObjective = {
 	
 	if (_mSpawn) then {
 
-		[_objectivePosition,east,MSCRIPTS_REDFOR_HQ,"patrol"] call mScripts_fnc_createObjectiveGroup;
+		[_objectivePosition,east,MSCRIPTS_REDFOR_HQ,"patrol"] call ina_fnc_createObjectiveGroup;
 
 	};
 	
