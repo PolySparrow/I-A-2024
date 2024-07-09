@@ -18,8 +18,8 @@
 //params ["param1", "param2"];
 _ArrayofAOs=[];
 _RandomAO="";
-_AOPOS=[];
+_AOInfo=[];
 
 _ArrayofAOs=["AO_SPAWNER_"] call BIS_fnc_getMarkers;
 _RandomAO=selectRandom _ArrayofAOs;
-_AOPOS=getPos _RandomAO;
+_AOInfo=getPos _RandomAO;
