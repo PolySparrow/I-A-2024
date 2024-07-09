@@ -4,8 +4,7 @@
  * [Description of Function]
  *
  * Arguments:
- * 0: List of Locations in an array
- * 1: Which Town this is for
+ * [List of Arguements]
  *
  * Return Value:
  * Nothing
